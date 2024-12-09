@@ -275,6 +275,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Cerrar Sesion"/>
+                                <connections>
+                                    <action selector="didTapClose:" destination="vwV-c4-YdK" eventType="touchUpInside" id="ute-tc-W0M"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bgV-Ql-2HP"/>
