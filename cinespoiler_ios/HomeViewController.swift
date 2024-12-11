@@ -21,6 +21,7 @@ class HomeViewController: UIViewController {
     func logOut(){
         try? Auth.auth().signOut()
         self.dismiss(animated: true, completion: nil)
+        print("Cerrar sesion con exito")
     }
     
     @IBAction func didTapClose(_ sender: UIButton) {
