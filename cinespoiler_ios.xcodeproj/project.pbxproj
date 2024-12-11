@@ -3,11 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8FB65B552CFC40AB00C2F2EE /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB65B542CFC40AB00C2F2EE /* LoginModel.swift */; };
 		8FB6C7CE2CF6C7660073FC27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB6C7CD2CF6C7660073FC27 /* AppDelegate.swift */; };
 		8FB6C7D02CF6C7660073FC27 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB6C7CF2CF6C7660073FC27 /* SceneDelegate.swift */; };
 		8FB6C7D22CF6C7660073FC27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB6C7D12CF6C7660073FC27 /* ViewController.swift */; };
@@ -16,8 +15,6 @@
 		8FB6C7DA2CF6C76D0073FC27 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8FB6C7D92CF6C76D0073FC27 /* Base */; };
 		8FCDB4432D0775BC00FF1850 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FCDB4422D0775BC00FF1850 /* GoogleService-Info.plist */; };
 		8FCDB45C2D078D5100FF1850 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDB45B2D078D5100FF1850 /* HomeViewController.swift */; };
-		B7500FE22CFBE09700E0CD22 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7500FE12CFBE09700E0CD22 /* LoginController.swift */; };
-		B7500FE42CFBE0FC00E0CD22 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7500FE32CFBE0FC00E0CD22 /* RegisterController.swift */; };
 		E0ACA1A42D0954000078D73A /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = E0ACA1A32D0954000078D73A /* FirebaseAuth */; };
 		E0ACA1A62D0954000078D73A /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = E0ACA1A52D0954000078D73A /* FirebaseAuthCombine-Community */; };
 		E0ACA1A82D0954000078D73A /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = E0ACA1A72D0954000078D73A /* FirebaseCore */; };
@@ -28,10 +25,10 @@
 		E0ACA1B22D0954000078D73A /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = E0ACA1B12D0954000078D73A /* FirebaseFunctionsCombine-Community */; };
 		E0ACA1B42D0954000078D73A /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = E0ACA1B32D0954000078D73A /* FirebaseStorage */; };
 		E0ACA1B62D0954000078D73A /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = E0ACA1B52D0954000078D73A /* FirebaseStorageCombine-Community */; };
+		E0ACA1BC2D0960270078D73A /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ACA1BB2D0960270078D73A /* MovieModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8FB65B542CFC40AB00C2F2EE /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 		8FB6C7CA2CF6C7660073FC27 /* cinespoiler_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cinespoiler_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FB6C7CD2CF6C7660073FC27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FB6C7CF2CF6C7660073FC27 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,9 +40,12 @@
 		8FCDB4422D0775BC00FF1850 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8FCDB45B2D078D5100FF1850 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B7500FCC2CFBD94800E0CD22 /* cinespoiler_ios.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = cinespoiler_ios.xcodeproj; sourceTree = SOURCE_ROOT; };
-		B7500FE12CFBE09700E0CD22 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
-		B7500FE32CFBE0FC00E0CD22 /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		E0ACA1BB2D0960270078D73A /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E0ACA1B92D095F640078D73A /* Authentication */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Authentication; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8FB6C7C72CF6C7660073FC27 /* Frameworks */ = {
@@ -87,14 +87,13 @@
 		8FB6C7CC2CF6C7660073FC27 /* cinespoiler_ios */ = {
 			isa = PBXGroup;
 			children = (
+				E0ACA1B92D095F640078D73A /* Authentication */,
 				8FB6C7CD2CF6C7660073FC27 /* AppDelegate.swift */,
 				8FB6C7CF2CF6C7660073FC27 /* SceneDelegate.swift */,
 				8FB6C7D12CF6C7660073FC27 /* ViewController.swift */,
 				8FB6C7D32CF6C7660073FC27 /* Main.storyboard */,
-				8FCDB45B2D078D5100FF1850 /* HomeViewController.swift */,
-				8FB65B542CFC40AB00C2F2EE /* LoginModel.swift */,
-				B7500FE32CFBE0FC00E0CD22 /* RegisterController.swift */,
-				B7500FE12CFBE09700E0CD22 /* LoginController.swift */,
+				E0ACA1BB2D0960270078D73A /* MovieModel.swift */,
+				E0ACA1BA2D095FEC0078D73A /* Admin */,
 				8FB6C7D62CF6C76D0073FC27 /* Assets.xcassets */,
 				8FB6C7D82CF6C76D0073FC27 /* LaunchScreen.storyboard */,
 				8FB6C7DB2CF6C76D0073FC27 /* Info.plist */,
@@ -107,6 +106,14 @@
 		B7500FCD2CFBD94800E0CD22 /* Products */ = {
 			isa = PBXGroup;
 			name = Products;
+			sourceTree = "<group>";
+		};
+		E0ACA1BA2D095FEC0078D73A /* Admin */ = {
+			isa = PBXGroup;
+			children = (
+				8FCDB45B2D078D5100FF1850 /* HomeViewController.swift */,
+			);
+			path = Admin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +130,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E0ACA1B92D095F640078D73A /* Authentication */,
 			);
 			name = cinespoiler_ios;
 			packageProductDependencies = (
@@ -202,10 +212,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7500FE42CFBE0FC00E0CD22 /* RegisterController.swift in Sources */,
-				8FB65B552CFC40AB00C2F2EE /* LoginModel.swift in Sources */,
 				8FB6C7D22CF6C7660073FC27 /* ViewController.swift in Sources */,
-				B7500FE22CFBE09700E0CD22 /* LoginController.swift in Sources */,
+				E0ACA1BC2D0960270078D73A /* MovieModel.swift in Sources */,
 				8FB6C7CE2CF6C7660073FC27 /* AppDelegate.swift in Sources */,
 				8FCDB45C2D078D5100FF1850 /* HomeViewController.swift in Sources */,
 				8FB6C7D02CF6C7660073FC27 /* SceneDelegate.swift in Sources */,

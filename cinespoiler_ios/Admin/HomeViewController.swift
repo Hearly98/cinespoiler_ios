@@ -7,11 +7,15 @@
 
 import UIKit
 import FirebaseAuth
+import FirebaseCore
+import FirebaseFirestore
+import FirebaseFirestoreSwift
+
 class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        FirebaseApp.configure()
         // Do any additional setup after loading the view.
     }
     
@@ -26,5 +30,16 @@ class HomeViewController: UIViewController {
     
     @IBAction func didTapClose(_ sender: UIButton) {
         logOut()
+    }
+    
+    let db = Firestore.firestore()
+    
+    let moviesRef = db.collection("movies")
+    do{
+        let movies = try await moviesRef.getMovie()
+        if !movies.isEmpty{
+            let dataDescription = movie.data().map(String.init(describing:)) ?? "nil"
+            print("Movie Data: \(dataDescription)")
+        }
     }
 }
